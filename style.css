@@ -2,6 +2,12 @@ body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
+body p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 161%;
+}
 .section-flex{
     display: flex;
 }
@@ -49,6 +55,9 @@ body{
     background-repeat: no-repeat;
     height: 561px;
 }
+.about-me h1{
+    font-size: 40px;
+}
 .about-me img{
     width: 91.5%;
     object-position: right top;
@@ -58,4 +67,34 @@ body{
     font-size: 18px;
     width: 81%;
     line-height: 200%;
+}
+
+/*** Recipes Section CSS ***/
+.recipe-section{
+    margin: 70px 0px;
+}
+.my-recipes{
+    color: #676767;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.recipes{
+    box-shadow: 10px 10px 40px #b3b2b2;
+    width: 30%;
+    margin: 0% 0% 0% 5%;
+    padding: 1%;
+    border-radius: 20px;
+}
+.recipes img{
+    width: 100%;
+    border-radius: 20px;
+}
+.last-recipes-margin{
+    margin-right: 5%;
+}
+.recipes h2, p{
+    color: #18191F;
+    width: 100%;
+    text-align: left;
 }
