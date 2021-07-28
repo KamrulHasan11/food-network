@@ -11,6 +11,40 @@ body p{
 .section-flex{
     display: flex;
 }
+
+/*** Menu Section CSS ***/
+.menu{
+    margin-left: 18%;
+}
+.nav{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    margin: 1% 5% 0% 5%;
+    align-items: center;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.nav ul li{
+    float: left;
+    padding: 10px 30px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    margin-left: 10px;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    background: linear-gradient(88.33deg, #FF1E1E -7.64%, #FBA24F 145.94%);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav img{
+    width: 61%;
+}
+
 /*** Food Order Section CSS ***/
 .food-order{
     padding: 70px 0px;
