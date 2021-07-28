@@ -2,11 +2,11 @@ body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
-section{
+.section-flex{
     display: flex;
 }
-/*** Food Slide Section CSS ***/
-.food-slide{
+/*** Food Order Section CSS ***/
+.food-order{
     padding: 70px 0px;
 }
 .half-width{
@@ -39,4 +39,23 @@ section{
 }
 .skip{
     color: #FB934A;
+}
+
+/*** About Me Section CSS ***/
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 561px;
+}
+.about-me img{
+    width: 91.5%;
+    object-position: right top;
+}
+.about-me p{
+    color: #18191F;
+    font-size: 18px;
+    width: 81%;
+    line-height: 200%;
 }
