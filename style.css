@@ -14,6 +14,7 @@ body p{
 /*** Food Order Section CSS ***/
 .food-order{
     padding: 70px 0px;
+    align-items: center;
 }
 .half-width{
     width: 50%;
@@ -54,6 +55,7 @@ body p{
     background-position: center;
     background-repeat: no-repeat;
     height: 561px;
+    align-items: center;
 }
 .about-me h1{
     font-size: 40px;
@@ -79,6 +81,9 @@ body p{
     width: 50%;
     margin: auto;
 }
+.my-recipes h1{
+    font-size: 35px;
+}
 .recipes{
     box-shadow: 10px 10px 40px #b3b2b2;
     width: 30%;
@@ -97,4 +102,36 @@ body p{
     color: #18191F;
     width: 100%;
     text-align: left;
+}
+
+/*** Social Media Section CSS ***/
+#social-media-section{
+    height: 250px;
+}
+.social-followers{
+    width: 33.3%;
+    padding: 1% 9%;
+    font-size: 21px;
+}
+.social-media{
+    width: 88%;
+}
+
+/*** Footer Section CSS ***/
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+    padding-top: 6%;
+}
+footer h1{
+    color: #5B5B5B;
+    font-size: 28px;
+}
+footer span{
+    color: #FB934A;
+}
+footer small{
+    color: #fff;
 }
